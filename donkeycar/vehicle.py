@@ -125,7 +125,8 @@ class Vehicle():
                 inputs = self.mem.get(entry['inputs'])
 
                 if hasattr(p, 'name'):
-                    inputs[0] = ((inputs[0] + 1) / 2) * 1500
+                    #inputs[0] = ((inputs[0] + 1) / 2) * 1500
+                    print("value before : ", inputs[0])
                     print("part : ", p)
                     print("inputs : ", inputs)
 
